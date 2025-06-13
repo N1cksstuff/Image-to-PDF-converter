@@ -3,6 +3,11 @@ import time
 from PIL import Image
 import io
 
+st.set_page_config(
+    page_title="Image to PDF Converter",
+    page_icon=":shark:",
+)
+
 st.session_state.uploaded = False
 st.title("Image to PDF :grey Converter :rocket:")
 
